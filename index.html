@@ -4,16 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <!-- tailwind & daisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<!-- google icons -->
+<script src="https://kit.fontawesome.com/4665e4cb5e.js" crossorigin="anonymous"></script>
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
 </head>
-<body>
-    <header>
-
+<body class="font-manrope">
+    <header class="max-w-6xl mx-auto mt-10">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <div>
+                <h1 class="text-3xl lg:text-7xl font-extrabold">It's good <br>
+                    tea time at The <br>
+                     Tea House</h1>
+                <p class="text-base mt-5 mb-5 lg:max-w-[400px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] text-white">Get Started</button>
+              </div>
+              <div>
+                <img src="./images/banner.png" class="max-w-sm" />
+                <div class="flex items-center gap-4 drop-shadow-2xl p-5 w-[250px] rounded -mt-20 bg-white">
+                    <i class="fa-solid fa-star text-4xl text-amber-400"></i>
+                    <div>
+                        <h4 class="text-3xl font-bold">5.00</h4>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </header>
-    <main>
+      
+    <main class="max-w-6xl mx-auto mt-10">
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
